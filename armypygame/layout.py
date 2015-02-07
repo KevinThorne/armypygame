@@ -571,14 +571,14 @@ class Layout_2:
                      'w9w000000000000009w00000000000d00000000wbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
                      '09w000000000000009w00000000000000000000wwwwbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
                      'w000000www0000000ww000000000d000000wwwwwwewbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
-                     'w00000099w0000000000000000000000000waaaww9wbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
-                     'w00000099w000000www0000000d00000000waaaww9wbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
-                     'w000000www00000099w0000000000000000wwaaww9wbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+                     'w00000099w00000000000000000000000000aaaww9wbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+                     'w00000099w000000www0000000d000000000aaaww9wbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+                     'w000000www00000099w0000000000000000w0aaww9wbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
                      'w000000000000000www00000000000000009999aa9wbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
                      'w000wwwwww000000000000000000d000000wwaawwwwbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
-                     'w000w2395w0000000000000000000000000waaawbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
-                     'w000waaa9w0000000d00000d00000000000waaawbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
-                     'w00099999w0000000000000000000000000waaawbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+                     'w000w2395w00000000000000000000000000aaawbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+                     'w000waaa9w0000000d00000d000000000000aaawbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+                     'w00099999w00000000000000000000000000aaawbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
                      'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb']
         self.pistol_x=1000000000000000000000000000000000
         self.pistol_y=1000000000000000000000000000000000
