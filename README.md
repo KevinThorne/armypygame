@@ -36,22 +36,23 @@ self.layout=['wwwwwwwwwwwwwwwwwwwwwbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbw5',
              'wwwwwwwwwwwwwwwwwwwwwwbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbw2',]
 ```
 Key:
+
 | Letter        | Object        |
 | ------------- | ------------- |
 | w             | wall          |
 | 0             | grass         |
-| p             | player*       |
-| e             | end*		    |
-| 1             | pistol*       |
-| 2             | rifle*	    |
-| 3             | machine gun*  |
-| 4             | flashlight*   |
-| 5             | flame thrower*|
+| p             | player  !     |
+| e             | end !		    |
+| 1             | pistol !      |
+| 2             | rifle ! 	    |
+| 3             | machine gun!  |
+| 4             | flashlight!   |
+| 5             | flame thrower!|
 | a             | enemy (Gray)  |
 | c             | superEnemy    |
 | r             | ruins			|
 | t             | tank			|
-* Required, or other coordinates must be supplied for them in the parser on layout creation
+! Required, or other coordinates must be supplied for them in the parser on layout creation
 *Note: "b" is just a commonly seen "filler" letter that just ends up being the green grass color (or default layout bg color)*
 
 
