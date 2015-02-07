@@ -53,14 +53,17 @@ Key:
 | r             | ruins			|
 | t             | tank			|
 ! Required, or other coordinates must be supplied for them in the parser on layout creation
+
 *Note: "b" is just a commonly seen "filler" letter that just ends up being the green grass color (or default layout bg color)*
 
 
 You can change these to whatever since each layout class has its own parser.
+
 Mainly how it works is the layout (including any enemy sprites) will move around the player. Thats right, the player doesn't move at all xD
 
 ####Adding to the game
 This is another place where I'm kind of kicking myself for. Its a sort of grueling process.
-First add your "darkness" tag to ...options.py... for your level "darkness" (if you want the peephole "hider" until the player finds a flashlight)
-Then add your level to the ...mainmenu.playlevel... def. First as a variable then down to the level counter.
+
+1. Add your "darkness" tag to ```options.py``` for your level "darkness" (if you want the peephole "hider" until the player finds a flashlight)
+2. Then add your level to the ```mainmenu.playlevel``` def. First as a variable then down to the level counter.
 
