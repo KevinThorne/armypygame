@@ -1,5 +1,5 @@
 # armypygame
-Made this clear back when I was somewhere around *10*, just barely started programming
+Made this clear back when I was somewhere around *10*, just barely started programming -- *Never released*
 
 Seriously, take this with a grain. I was absolutely *terrible* at programming, especially python (and using some of your cousin's code for the sake of learning)! I'll probably add some levels just for kicks and giggles for you guys, **or you can add your own!**
 
