@@ -121,6 +121,7 @@ class Layout_1:
         self.floor_rects=[]
         self.end_rects=[]
         self.weapon_rects=[]
+        self.specials_rects=[]
 
         ## there are no creatures in this map
         ## in later ones they will be added
@@ -317,6 +318,13 @@ class Layout_1:
             else:
                 item.move(self.wall_rects)
             x=x+1
+        x=0
+        for special in self.specials:
+            if(special.rect.colliderect(self.player)):
+                if(special.show==1):
+                    special.pickup(self.player)
+            x=x+1
+            
         if self.pistol.rect.colliderect(self.player):
             self.pistol.pickup(self.player)
             self.slot_1=1
@@ -352,6 +360,11 @@ class Layout_1:
         x=0
         for item in self.end_rects:
             screen.screen.blit(self.ends[x],item)
+            x=x+1
+        x=0
+        for item in self.specials:
+            if(item.show==1):
+                screen.screen.blit(self.specials[x].image,item.rect)
             x=x+1
 
         for item in self.creatures:
@@ -394,6 +407,8 @@ class Layout_1:
                     item=item.move_ip(0,self.player.speed)
                 for item in self.creatures:
                     item.player_move(1)
+                for item in self.specials:
+                    item.player_move(1)
             if direction==2:
                 self.player.bullets_player_move(2)
                 self.pistol.move(2,self.player.speed)
@@ -408,6 +423,8 @@ class Layout_1:
                 for item in self.end_rects:
                     item=item.move_ip(0,-self.player.speed)
                 for item in self.creatures:
+                    item.player_move(2)
+                for item in self.specials:
                     item.player_move(2)
             if direction==3:
                 self.player.bullets_player_move(3)
@@ -424,6 +441,8 @@ class Layout_1:
                     item=item.move_ip(-self.player.speed,0)
                 for item in self.creatures:
                     item.player_move(3)
+                for item in self.specials:
+                    item.player_move(3)
             if direction==4:
                 self.player.bullets_player_move(4)
                 self.pistol.move(4,self.player.speed)
@@ -438,6 +457,8 @@ class Layout_1:
                 for item in self.end_rects:
                     item=item.move_ip(self.player.speed,0)
                 for item in self.creatures:
+                    item.player_move(4)
+                for item in self.specials:
                     item.player_move(4)
 
             for item in self.wall_rects:

@@ -16,6 +16,8 @@ class Heart:
         self.player_speed=options.player_speed
         self.alive=1
 
+        self.show = 1
+
     def pickup(self,player):
         if self.rect.colliderect(player):
             self.show=0
